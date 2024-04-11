@@ -1,0 +1,26 @@
+/* Basic reset */
+
+
+/* Game container styling */
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px); /* Adjust based on card size */
+    grid-gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+.flipped {
+    background-color: #fff;
+}
